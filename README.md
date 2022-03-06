@@ -8,10 +8,12 @@ Main tasks
 3. Calculate (Interpolate) Arrive Time for each Stops
 4. Calculate Timetables for the Bus System 
 
-Input Data
+Input Data & Data Quality 
 ==========
+**Data input**
 Data was requested from Busmap Vietnam, including:'routes.json', 'timetables.json', 'trips.json', 'vars.json', 'paths.json', 'stops.json'.
-Data problems:
+
+**Data problems**
 1. Data only contains bus stops location (i.e. longitude, latitude) and bus route numbers in each stop. There is no bus route
 2. Available data from Jan 2019 - Sep 2019 
 3. The data recording the distance traveled by the bus had a lot of noise, e.g. the distance increases and decreases continuously
