@@ -1,4 +1,4 @@
-# PROJECT: vinif_bus_time_tables
+# PROJECT: vinif_bus_timetable_prediction 
 The central aim of the project is to develope a Timetables for Bus System in HCMC (Saigon South), Vietnam. This project is supported in part by Vingroup Innovation Foundation, Vietnam. 
 
 Main tasks
