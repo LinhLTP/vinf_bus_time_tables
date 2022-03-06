@@ -25,4 +25,14 @@ Data was requested from Busmap Vietnam, including:'routes.json', 'timetables.jso
 
 Result
 ==========
+**Bus Trajectory**
+
 <img src="fig/bus stop and bus trajectory.png" alt="Example" width="100%" />
+
+**Number of trip / day**
+
+<img src="fig/number of trip a day.png" alt="Example" width="100%" />
+
+**Velocity-noise remove**
+<img src="fig/velocity noise remove.png" alt="Example" width="100%" />
+
