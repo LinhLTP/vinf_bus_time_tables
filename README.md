@@ -14,7 +14,7 @@ Input Data & Data Quality
 
 Data was requested from Busmap Vietnam, including:'routes.json', 'timetables.json', 'trips.json', 'vars.json', 'paths.json', 'stops.json'.
 
-**Data problems**
+**Data problem**
 
 1. Data only contains bus stops location (i.e. longitude, latitude) and bus route numbers in each stop. There is no bus route
 2. Available data from Jan 2019 - Sep 2019 
@@ -22,4 +22,7 @@ Data was requested from Busmap Vietnam, including:'routes.json', 'timetables.jso
 4. We don't know how many times the bus runs a day
 5. The departure time (first departure) of each trip is unknown, and the time when the bus arrives at the final station (the last stop on the route) is unknown as well
 6. There are cases where the bus has reached the last station but the data is still recorded (same location, data is recorded continuously and repeatedly) so it is necessary to determine when the bus actually arrives at the last station
+
+Result
+==========
 <img src="fig/demo_example.png" alt="Example" width="100%" />
