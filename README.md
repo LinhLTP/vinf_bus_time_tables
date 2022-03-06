@@ -25,4 +25,4 @@ Data was requested from Busmap Vietnam, including:'routes.json', 'timetables.jso
 
 Result
 ==========
-<img src="fig/demo_example.png" alt="Example" width="100%" />
+<img src="fig/bus stop and bus trajectory.png" alt="Example" width="100%" />
