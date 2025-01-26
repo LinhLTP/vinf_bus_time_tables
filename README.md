@@ -1,27 +1,34 @@
-# PROJECT: vinif_bus_timetable_prediction 
-The central aim of the project is to develope a Timetables for Bus System in HCMC (Saigon South), Vietnam. This project is supported in part by Vingroup Innovation Foundation, Vietnam. 
+# Public Transport Timetable Prediction  
 
-Main tasks
-==========
-1. Discover the bus top sequences of bus lines using bus stop information (long-lat) and historical bus locations  
-2. Calculate distance ratio & arrival time at each bus stop along the path
-3. Calculate (Interpolate) Arrive Time for each Stops
-4. Calculate Timetables for the Bus System 
+The primary objective of this project is to develop timetables for the bus system in Ho Chi Minh City (Saigon South), Vietnam. This project is partially funded by the Vingroup Innovation Foundation, Vietnam.  
 
-Input Data & Data Quality 
-==========
-**Data input**
+## Main Tasks  
 
-Data was requested from Busmap Vietnam, including:'routes.json', 'timetables.json', 'trips.json', 'vars.json', 'paths.json', 'stops.json'.
+1. Identify the sequences of bus stops for each bus route using bus stop location data (longitude and latitude) and historical bus location data.  
+2. Calculate the distance ratio and arrival time at each bus stop along the route.  
+3. Interpolate and calculate the arrival time for each bus stop.  
+4. Generate timetables for the entire bus system.  
 
-**Data problem**
+## Input Data and Data Quality  
 
-1. Data only contains bus stops location (i.e. longitude, latitude) and bus route numbers in each stop. There is no bus route
-2. Available data from Jan 2019 - Sep 2019 
-3. The data recording the distance traveled by the bus had a lot of noise, e.g. the distance increases and decreases continuously
-4. We don't know how many times the bus runs a day
-5. The departure time (first departure) of each trip is unknown, and the time when the bus arrives at the final station (the last stop on the route) is unknown as well
-6. There are cases where the bus has reached the last station but the data is still recorded (same location, data is recorded continuously and repeatedly) so it is necessary to determine when the bus actually arrives at the last station
+### **Input Data**  
+
+The data was obtained from Busmap Vietnam and includes the following files:  
+- `routes.json`  
+- `timetables.json`  
+- `trips.json`  
+- `vars.json`  
+- `paths.json`  
+- `stops.json`  
+
+### **Data Issues**  
+
+1. The data only contains bus stop locations (longitude and latitude) and the bus route numbers for each stop, but not the full route details.  
+2. The available data spans the period from January 2019 to September 2019.  
+3. There is significant noise in the data recording the distances travelled by buses; for example, the recorded distances frequently increase and decrease inconsistently.  
+4. The number of times a bus runs each day is unknown.  
+5. The departure time of the first trip for each bus and the arrival time at the final station (the last stop on the route) are both unknown.  
+6. In some cases, the data shows the bus repeatedly recorded at the final station (same location, recorded continuously), making it necessary to determine when the bus actually arrives at the final station.
 
 Result
 ==========
