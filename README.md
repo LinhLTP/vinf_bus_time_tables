@@ -36,7 +36,7 @@ Result
 
 <img src="fig/bus stop and bus trajectory.png" alt="Example" width="100%" />
 
-**Headway (No trip/day)**
+**No trip/day/route**
 
 <img src="fig/number of trip a day.png" alt="Example" width="100%" />
 
